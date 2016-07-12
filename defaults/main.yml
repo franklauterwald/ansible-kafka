@@ -35,7 +35,7 @@ nofiles_limit: 50000
 
 kafka_port_test_timeout_seconds: 30
 
-kafka_generate_broker_id: yes
+kafka_generate_broker_id: false
 
 kafka_log4j_date_pattern: "'.'yyyy-MM-dd" # Rollover at midnight each day.
 

@@ -26,6 +26,7 @@ kafka_log_dir: /var/log/kafka
 kafka_group: kafka
 kafka_user: kafka
 
+# log4j stuff
 kafka_max_logfile_size: 50MB
 kafka_max_logbackup_idx: 7
 
@@ -62,8 +63,8 @@ server:
   log_cleanup_policy:
   log_retention_ms:
   log_retention_minutes:
-  log_retention_hours: 168
-  log_retention_bytes: 1073741824
+  log_retention_hours: 16800
+  log_retention_bytes: 85899345920
   log_retention_check_interval_ms: 300000
   log_cleaner_enable: false
   log_cleaner_threads:
